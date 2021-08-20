@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class KoalaClass : Animal
+﻿public class KoalaClass : Animal
 {
-
+    //Editable on inspector
 }

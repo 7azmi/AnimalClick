@@ -6,9 +6,6 @@ public class PlayerData : MonoBehaviour
     string Date { get { return System.DateTime.Now.ToString("MM/dd"); } }
     internal int currentScore { get { return FindObjectOfType<ScoreText>().scoreCounter; } }
 
-
-
-
     public Log NewScore()
     {
         return new Log(PlayerName, Date, currentScore);

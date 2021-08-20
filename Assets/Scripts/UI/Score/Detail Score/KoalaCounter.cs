@@ -1,7 +1,4 @@
-﻿using TMPro;
-using UnityEngine;
-
-public class KoalaCounter : AnimalCounter
+﻿public class KoalaCounter : AnimalCounter
 {
     protected override void UpdateScore(Animal type)
     {

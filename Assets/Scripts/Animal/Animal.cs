@@ -12,6 +12,7 @@ public abstract class Animal : MonoBehaviour, IPointerDownHandler
 
 
     private void Awake() => GameManager.OnGameOver += Destroy;
+
     public void OnPointerDown(PointerEventData eventData)
     {
         OnAnimalPointerDown?.Invoke(this); //for counting score details

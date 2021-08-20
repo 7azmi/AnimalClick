@@ -8,13 +8,12 @@ public class GameSettings : ScriptableObject
 
     public Background background;
 
-    public Sprite getBackground { get { return backgrounds[(int)background]; } }
+    public Sprite getBackground { get { return backgrounds[(int) background]; } }
 
     [SerializeField] Sprite[] backgrounds;
 
     [Range(0.1f,3f)]
     public float interval = 1.5f;
-
 
 
     #region Trash
