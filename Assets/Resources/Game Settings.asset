@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 796efb4620c6e7a448a5859090fccb7b, type: 3}
   m_Name: Game Settings
   m_EditorClassIdentifier: 
-  background: 0
+  background: 2
   backgrounds:
   - {fileID: 21300000, guid: 00ca3ed2bf9200442be22538138a7970, type: 3}
   - {fileID: 21300000, guid: eef2bc3827df3544bb5633ddd31f5939, type: 3}
   - {fileID: 21300000, guid: 5069131bd3227bd45a0e8ec012ec5fb7, type: 3}
-  interval: 0.5
+  interval: 3
